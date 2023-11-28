@@ -1,0 +1,3 @@
+openssl pkcs12 -export -in ********.cert.pem -inkey ******.private.key -out *******.pfx -certfile ****-CA.crt
+
+openssl pkcs12 -export -in certificates\certificate.cert.pem -inkey certificates\certificate.private.key -out certificates\certificate.cert.pfx -certfile certificates\AmazonRootCA1.crt
